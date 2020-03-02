@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { ContadorComponent } from './components/contador/contador.component';
 import { AppRoutingModule } from './app-routing.module';
 import { EchoComponent } from './components/echo/echo.component';
+import { ListaComponent } from './components/lista/lista.component';
+import { ListaDeTarefasComponent } from './components/lista-de-tarefas/lista-de-tarefas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContadorComponent,
-    EchoComponent
+    EchoComponent,
+    ListaComponent,
+    ListaDeTarefasComponent
   ],
   imports: [
     BrowserModule,
