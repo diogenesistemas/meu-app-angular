@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EchoComponent implements OnInit {
 
-  texto: string = "Meu Texto";
+  text: string = "";
 
   constructor() { }
 
